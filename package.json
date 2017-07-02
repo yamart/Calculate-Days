@@ -1,0 +1,27 @@
+{
+  "name": "calculate-days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaman Alkamaly",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^2.2.1",
+    "typescript": "^2.4.1",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.33",
+    "@types/react-dom": "^15.5.1",
+    "jasmine": "^2.6.0"
+  }
+}

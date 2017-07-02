@@ -1,0 +1,49 @@
+html, body {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0; }
+
+.app-component input[type="date"], .app-component label, .app-component .result > div {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.app-component {
+  display: block;
+  margin: 100px auto 0;
+  max-width: 300px;
+  width: 100%;
+  text-align: center; }
+  .app-component input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cacaca; }
+  .app-component label {
+    display: block;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cacaca;
+    background: #f3f1f1; }
+  .app-component .result > div {
+    padding: 20px;
+    color: white; }
+    .app-component .result > div.num {
+      background: #32a982; }
+      .app-component .result > div.num span {
+        font-size: 36px;
+        font-weight: bold;
+        display: block; }
+    .app-component .result > div.msg {
+      background: #bd3333; }
+
+/*# sourceMappingURL=main.css.map*/
