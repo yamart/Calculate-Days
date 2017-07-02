@@ -15,7 +15,7 @@ npm install
 To try this function, you can use the provided GUI, or:
 ```Javascript
 cd src/calculate
-node calculate.try.js
+node try.js
 ```
 
 The data is being retrieved from a file called `data.csv`, you can edit the file to see different results, you can add mutiple lines to the data file, each with a different calculation, like:
